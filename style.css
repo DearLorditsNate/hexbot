@@ -2,5 +2,16 @@
     height: 50px;
     width: 50px;
     background-color: blue;
+}
+
+.is-blurred {
+    filter: blur(2px);
+}
+
+.modal-show {
     visibility: visible;
+}
+
+.modal-hide {
+    visibility: hidden;
 }
