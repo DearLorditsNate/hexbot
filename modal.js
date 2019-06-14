@@ -4,9 +4,10 @@ document.getElementById("modal-btn").onclick = () => {
     if (modalDiv.classList.contains("modal-hide")) {
         modalDiv.classList.remove("modal-hide");
         modalDiv.classList.add("modal-show");
-        // window.className = "is-blurred";
+        document.body.classList.add("is-blurred");
     } else {
         modalDiv.classList.remove("modal-show");
         modalDiv.classList.add("modal-hide");
+        document.body.classList.remove("is-blurred");
     }
 }
