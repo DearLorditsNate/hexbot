@@ -1,7 +1,12 @@
 #modal {
-    height: 50px;
-    width: 50px;
+    height: 250px;
+    width: 250px;
     background-color: blue;
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    left: 250px;
+    top: 250px;
 }
 
 .is-blurred {
@@ -14,4 +19,9 @@
 
 .modal-hide {
     visibility: hidden;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
 }
